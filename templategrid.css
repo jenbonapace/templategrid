@@ -1,0 +1,22 @@
+
+.container{
+  width: 100%;
+  border: 1px solid red;
+}
+
+.triplet {
+  width: 70%;
+  border: 3px solid blue;
+}
+
+.box {
+/*border: 4px dotted #4dffff;
+  max-width: 50%;
+  float: left;
+  padding: 10px;
+  margin: auto;*/
+  display: inline-block;
+  width: 30%;
+  height:300px;;
+  border: 4px dashed red;
+}
