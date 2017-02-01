@@ -1,0 +1,46 @@
+
+.container{
+  width: 100%;
+  border: 1px solid red;
+}
+
+.triplet {
+  width: 70%;
+  border: 3px solid blue;
+}
+
+.box {
+/*border: 4px dotted #4dffff;
+  max-width: 50%;
+  float: left;
+  padding: 10px;
+  margin: auto;*/
+  display: inline-block;
+  width: 30%;
+  height:300px;;
+  border: 4px dashed red;
+}
+
+/*lol have no clue what i am doing!
+for mobile, this is a galaxy*/
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  {
+    display: inline-block;
+    width: 50%;
+    height:50%;
+    border: 4px dashed red;
+
+  }
+
+
+/*for medium*/
+@media only screen and
+(min-device-width: 320px)
+(max-device-width: 480px)
+{ /* iPhone, Android rules here */}
+
+/*for large screens*/
